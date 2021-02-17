@@ -80,8 +80,7 @@ if(isset($_POST['name'])){
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel='icon' href='https://vos-formations.com/favicon.ico' type='image/x-icon'/>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -149,14 +148,15 @@ if(isset($_POST['name'])){
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
-              <img src="assets/img/portfolio/ofp_facebook.jpg" alt="">
+              <img src="img_1.jpg" alt="">
             </div>
           </div>
           <div class="col-xl-7 d-flex align-items-stretch">
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
-               <h3>Nous</h3>
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit ad aliquam a iure, beatae eaque temporibus totam pariatur nobis recusandae optio ea impedit nisi! Minus dolores ad sequi sint consectetur.</p>
+               <h3>QUI SOMMES-NOUS ?</h3>
+               <p>Dès sa création en 1999, ONLINEFORMAPRO s’est rapidement imposée comme une entreprise innovante dans le domaine de la pédagogie inversée et pédagogie active par projet.
+                En effet, entre Digital Learning et organisme de formation reconnu, notre culture pédagogique présente dans nos 21 sites en Bourgogne – Franche-Comté, Grand Est et Rhône-Alpes nous a permis d’accélérer la mutation de la formation via des solutions innovantes et adaptées notamment dans les métiers de l’informatique.</p>
               </div>
               </div>
             </div><!-- End .content-->
@@ -172,7 +172,10 @@ if(isset($_POST['name'])){
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Vous avez un problème avec votre matériel informatique ?</p>
+          <p>Voici comment va se dérouler notre relation… .
+            Vous êtes une entreprise ou une association qui souhaite se débarrasser de matériels informatiques obsolètes ?
+            Toujours dans cet esprit et cette volonté de faire participer activement nos apprenants sur des cas concrets de maintenance ou télémaintenance informatique, « REPARE PC » vous propose de récupérer ce type de matériel. En effet, plutôt que de faire appel à une entreprise de recyclage, nos apprenants proposent de reconditionner votre ancien matériel pour les redistribuer à des familles dans le besoin ou à des associations d'aide à l'emploi.</p>
         </div>
 
         <div class="row">
@@ -180,7 +183,7 @@ if(isset($_POST['name'])){
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4 class="title"><a href="">Diagnostic</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <p class="description">Nous éféctuons diagnostic sur votre pc</p>
             </div>
           </div>
 
@@ -188,7 +191,7 @@ if(isset($_POST['name'])){
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4 class="title"><a href="">Instalation software</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p class="description">Nous instalon les software nécéssaire au bon fonctionnemment de votre pc</p>
             </div>
           </div>
 
@@ -196,7 +199,7 @@ if(isset($_POST['name'])){
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="">Maintenance</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p class="description">Nous somme en mesure d'éféctuez des acts de maintenance sur votre pc</p>
             </div>
           </div>
 
@@ -204,7 +207,7 @@ if(isset($_POST['name'])){
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4 class="title"><a href="">Remaster</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
 
@@ -223,7 +226,7 @@ if(isset($_POST['name'])){
             <div class="count-box">
               <i class="icofont-simple-smile"></i>
               <span data-toggle="counter-up">232</span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
+              <p><strong>Clients content</strong> de nos services</p>
             </div>
           </div>
 
@@ -231,7 +234,7 @@ if(isset($_POST['name'])){
             <div class="count-box">
               <i class="icofont-document-folder"></i>
               <span data-toggle="counter-up">521</span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+              <p><strong>PC réparé</strong> par nos aprenent</p>
             </div>
           </div>
 
@@ -239,7 +242,7 @@ if(isset($_POST['name'])){
             <div class="count-box">
               <i class="icofont-live-support"></i>
               <span data-toggle="counter-up">1,463</span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+              <p><strong>Rendez-vous</strong>pris par notre organisme</p>
             </div>
           </div>
 
@@ -247,7 +250,7 @@ if(isset($_POST['name'])){
             <div class="count-box">
               <i class="icofont-users-alt-5"></i>
               <span data-toggle="counter-up">15</span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+              <p><strong>Apprenents</strong> en formation</p>
             </div>
           </div>
 
@@ -262,13 +265,13 @@ if(isset($_POST['name'])){
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Pour nous contacter suivez les étapes si dessous</p>
+          <img src="img_2.jpg" alt="">
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-6">
             <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
               <h3 id="center">Addresse du centre</h3>
               <p id="adress"></p>
             </div>
@@ -276,16 +279,13 @@ if(isset($_POST['name'])){
 
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
               <h3>Horaires</h3>
-              <p>lundi à vendredi 08:30 – 12:00, 13:30 – 17:00</p>
-              <p>samedi et dimanche Fermé</p>
+              <p>lundi à vendredi 13:30 – 17:00</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
               <h3>Téléphone</h3>
               <p id="tel"></p>
             </div>
@@ -302,9 +302,10 @@ if(isset($_POST['name'])){
 
           <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <input style="display: none" type="text" name="center" id="fillCenter">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nom Prénom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nom / Prenom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
@@ -313,17 +314,8 @@ if(isset($_POST['name'])){
                 </div>
               </div>
               <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <select name="name" class="form-control" id="name">
-                    <option value="">-sélectionnez un centre-</option>
-                    <?php foreach ($cats as $cat ): ?>
-                        <option value="<?= $cat['nom']?>"><?= $cat['nom']?></option>
-                    <?php endforeach; ?>
-                  </select>
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="text" class="form-control" name="email" id="name" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter a valid email" />
+                <div class="col-md-12 form-group">
+                  <input type="text" class="form-control" name="email" id="sujet" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
@@ -336,7 +328,7 @@ if(isset($_POST['name'])){
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div id="send" class="text-center"><button type="submit">Envoyer Message</button></div>
             </form>
           </div>
 

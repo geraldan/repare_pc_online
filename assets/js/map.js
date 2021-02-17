@@ -35,5 +35,55 @@ window.onload = function() {
     var posGray = document.getElementById("OL_Icon_26");
     var posVienne = document.getElementById("OL_Icon_30");
     var posBeynost = document.getElementById("OL_Icon_22");
+    //recherche de l'id
+    var adress = document.getElementById("adress");
+    var tel = document.getElementById("tel");
+    var cb = document.getElementById("fillCenter");
+    var btn = document.getElementById("send");
 
+    //affiche les informations
+    posBeynost.addEventListener("click" , function () {
+        var a = "Beynost rue des petits poids";
+        var b = "03 20 10 10 10";
+        var c = "Beynost";
+        //ecrire les informations
+        
+        // l'id innerHTML = a;
+        adress.innerHTML = a;
+        tel.innerHTML = b;
+        cb.value = c;
+        // ajout du style display block
+        btn.style.display = "block";
+    });
+
+    //affiche les informations
+    posVienne.addEventListener("click" , function () {
+      var a = "Vienne rue des girafes";
+      var b = "03 48 36 10 10";
+      var c = "Vienne";
+      //ecrire les informations
+
+      // l'id innerHTML = a;
+      adress.innerHTML = a;
+      tel.innerHTML = b;
+      cb.value = c;
+      // ajout du style display block
+      btn.style.display = "block";
+
+    });
+
+    //affiche les informations
+    posGray.addEventListener("click" , function () {
+      var a = "Gray rue des salieres";
+      var b = "03 20 45 10 10";
+      var c = "Gray";
+      //ecrire les informations
+      
+      // l'id innerHTML = a;
+      adress.innerHTML = a;
+      tel.innerHTML = b;
+      cb.value = c;
+      // ajout du style display block
+      btn.style.display = "block";
+  });
 }

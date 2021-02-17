@@ -417,7 +417,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f4f9fc;
+  background-color: #fff;
 }
 
 .section-title {
@@ -682,7 +682,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #2f4d5a;
+  color: #212121;
   margin-left: 60px;
 }
 
@@ -691,14 +691,14 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #49788c;
+  color: #444;
 }
 
 .counts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #49788c;
+  color: #444;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
@@ -957,12 +957,9 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #8ec4dd;
+  background: #d31e44;
 }
 
-/*map refait*/
-
-/*end map refait*/
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1190,7 +1187,7 @@ section {
     background-color: blue;
 }
 /*test*/
-.col-lg-6 .mapp{
-  height: 367px;
-  background-color: #18d26e;
+
+#send {
+  display: none;
 }
