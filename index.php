@@ -120,7 +120,7 @@ if(isset($_POST['name'])){
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">ACCUEIL</a></li>
+          <li class="active"><a href="../repare pc online">ACCUEIL</a></li>
           <li><a href="#about">Qui nous somme</a></li>
           <li><a href="#services">Service</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -182,7 +182,7 @@ if(isset($_POST['name'])){
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Diagnostic</a></h4>
+              <h4 class="title"><a>Diagnostic</a></h4>
               <p class="description">Nous éféctuons diagnostic sur votre pc</p>
             </div>
           </div>
@@ -190,7 +190,7 @@ if(isset($_POST['name'])){
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Instalation software</a></h4>
+              <h4 class="title"><a>Instalation software</a></h4>
               <p class="description">Nous instalon les software nécéssaire au bon fonctionnemment de votre pc</p>
             </div>
           </div>
@@ -198,7 +198,7 @@ if(isset($_POST['name'])){
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Maintenance</a></h4>
+              <h4 class="title"><a>Maintenance</a></h4>
               <p class="description">Nous somme en mesure d'éféctuez des acts de maintenance sur votre pc</p>
             </div>
           </div>
@@ -206,7 +206,7 @@ if(isset($_POST['name'])){
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Remaster</a></h4>
+              <h4 class="title"><a>Remaster</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
@@ -266,7 +266,7 @@ if(isset($_POST['name'])){
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Contact</h2>
           <p>Pour nous contacter suivez les étapes si dessous</p>
-          <img src="img_2.jpg" alt="">
+          <img class="img-contact" src="img_2.jpg" alt="">
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">

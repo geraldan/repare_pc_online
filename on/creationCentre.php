@@ -32,22 +32,30 @@ if(isset($_SESSION["connected"]) && $_SESSION["connected"] == "yes") {
         <meta charset="UTF-8">
         <title>Création</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
-         <!-- ne pas oublier le post dans method du formulaire le post permer d'envoyer  en cacher les donnés dans la base de donner en cacher -->
+         <!-- ne pas oublier le post dans method du formulaire le post permer d'envoyer  en cacher les donnés dans la base de donner -->
+            <div class="form_on_creation">
+                <h4>Création de centres</h4>
                 <form id="form" action="" method="POST">
-                    <label for="">centre :</label>
-                    <input name="nom" type="text" required>
-                    <label for="">Adresse :</label>
-                    <input name="adresse" type="text" required>
-                    <label for="">longitude :</label>
-                    <input name="lon" type="text" required>
-                    <label for="">latitude</label>
-                    <input name="lat" type="text" required>
-                    <button type="submit">ENVOYER</button>
+                    <div class="col-md-6 form-group">  
+                        <input class="form-control-on" name="nom" type="text" placeholder="Centre" required>
+                    </div>
+                    <div>
+                        <input class="form-control-on" name="adresse" type="text" placeholder="Adresse" required>
+                    </div>
+                    <div>
+                        <input class="form-control-on" name="lon" type="text" placeholder="Longitude" required>
+                    </div>
+                    <div>
+                        <input class="form-control-on" name="lat" type="text" placeholder="Latitude" required>
+                    </div>
+
+                    <div><button class="btn-on" type="submit">ENVOYER</button></div>
 
                 </form>
+            </div>
     </body>
     </html>
 <?php } else { header("HTTP/1.1 403 Forbidden"); } ?>

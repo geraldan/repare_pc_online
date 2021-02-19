@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1  a, #header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -339,6 +339,9 @@ h1, h2, h3, h4, h5, h6 {
 .content img{
   width:100%;
 }
+.img-contact{
+  width: 60%;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -351,7 +354,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   margin-bottom: -90px;
 }
-
+.o{ 
+  color: white;
+}
 #hero .hero-container {
   position: absolute;
   bottom: 0;
@@ -449,6 +454,7 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -977,6 +983,11 @@ section {
     transform: rotate(360deg);
   }
 }
+@media (max-width: 768px){
+  .img-contact{
+    width: 100%;
+  }
+}
 
 /*--------------------------------------------------------------
 # Footer
@@ -1190,4 +1201,59 @@ section {
 
 #send {
   display: none;
+}
+
+/*on*/
+
+.form_on {
+ height: 300px;
+ width: 50%; 
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ background-color: #d31e44;
+ margin: 3em auto;
+ padding-top:1em;
+ border-radius: 50px;
+ box-shadow:0px 0px 20px  #2f4d5a;
+
+}
+.form_on h4{
+color: cornsilk;
+margin-top: 2em;
+}
+.form_on_creation{
+  height: 400px;
+  width: 50%; 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d31e44;
+  margin: 3em auto;
+  border-radius: 50px;
+  box-shadow: 0px 0px 30px  #2f4d5a;
+ 
+}
+.form_on_creation h4{
+  color: white;
+}
+
+.form-control-on {
+    width: 25%;
+    margin-bottom: 2em;
+    size: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.btn-on{
+    background: #c25a71;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s
 }
